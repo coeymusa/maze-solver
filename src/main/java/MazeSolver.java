@@ -15,6 +15,7 @@ public class MazeSolver {
 
     private static Position currentPosition;
     private static Stack visitedPositions;
+    private static boolean mazeSolved;
 
     public static void main(String[] args) {
         currentPosition = new Position(2,4);
@@ -25,6 +26,11 @@ public class MazeSolver {
         } else {
             System.out.println("Invalid Maze");
         }
+
+    }
+
+    private static void setMazeSolved() {
+        System.exit(0);
     }
 
     private static boolean solveMaze(int[][] maze) {
@@ -41,57 +47,21 @@ public class MazeSolver {
         }
 
         System.out.println("Current position: " + String.valueOf(currentPosition.getX()) + ", "+ String.valueOf(currentPosition.getY()));
-        switch (nextPosition(moveLeft())) {
-            case 1:
-                if (previousPosition.getY() != moveLeft().getY()) {
-                    System.out.println("You moving left!");
-                    visitedPositions.push(currentPosition);
-                    currentPosition = moveLeft();
-                    move();
-                } else {
-                    break;
-                }
-            case 2:
-                return;
-            case 0:
-                break;
+
+        while (!mazeSolved) {
+            moveLeftt(previousPosition);
+            moveUpp(previousPosition); //
+            moveRightt(previousPosition);
+            moveDownn(previousPosition);
+            deadEnd(previousPosition);
         }
 
-        switch (nextPosition(moveUp())) {
-            case 1:
-                if (previousPosition.getX() != moveUp().getX()) {
-                    System.out.println("You moving up!");
-                    visitedPositions.push(currentPosition);
-                    currentPosition = moveUp();
-                    move();
-                }
-                else {
-                    break;
-                }
+        System.out.println("Valid Maze!!");
+        setMazeSolved();
 
-            case 2:
-                return;
-            case 0:
-                break;
-        }
+    }
 
-        switch (nextPosition(moveRight())) {
-            case 1:
-                if (previousPosition.getY() != moveRight().getY()) {
-                    System.out.println("You moving right!");
-                    visitedPositions.push(currentPosition);
-                    currentPosition = moveRight();
-                    move();
-                } else {
-                    break;
-                }
-
-            case 2:
-                return;
-            case 0:
-                break;
-        }
-
+    private static void moveDownn(Position previousPosition) {
         switch (nextPosition(moveDown())) {
             case 1:
                 if (previousPosition.getX() != moveDown().getX()) {
@@ -103,14 +73,69 @@ public class MazeSolver {
                     break;
                 }
             case 2:
-                return;
+                mazeSolved = true;
+                move();
             case 0:
                 break;
         }
+    }
 
-        deadEnd(previousPosition);
+    private static void moveRightt(Position previousPosition) {
+        switch (nextPosition(moveRight())) {
+            case 1:
+                if (previousPosition.getY() != moveRight().getY()) {
+                    System.out.println("You moving right!");
+                    visitedPositions.push(currentPosition);
+                    currentPosition = moveRight();
+                    move();
+                } else {
+                    break;
+                }
+            case 2:
+                mazeSolved = true;
+                move();
+            case 0:
+                break;
+        }
+    }
 
+    private static void moveUpp(Position previousPosition) {
+        switch (nextPosition(moveUp())) {
+            case 1:
+                if (previousPosition.getX() != moveUp().getX()) {
+                    System.out.println("You moving up!");
+                    visitedPositions.push(currentPosition);
+                    currentPosition = moveUp();
+                    move();
+                }
+                else {
+                    break;
+                }
+            case 2:
+                mazeSolved = true;
+                move();
+            case 0:
+                break;
+        }
+    }
 
+    private static void moveLeftt(Position previousPosition) {
+        switch (nextPosition(moveLeft())) {
+            case 1:
+                if (previousPosition.getY() != moveLeft().getY()) {
+                    System.out.println("You moving left!");
+                    visitedPositions.push(currentPosition);
+                    currentPosition = moveLeft();
+                    move();
+                } else {
+                    break;
+                }
+            case 2:
+                mazeSolved = true;
+                move();
+            case 0:
+                break;
+        }
     }
 
     private static void deadEnd(Position previousPosition) {
@@ -121,7 +146,9 @@ public class MazeSolver {
             currentPosition = previousPosition;
             move();
         } else {
-            System.out.println("wrongggg");
+
+            System.out.println("Maze unsolvable");
+            setMazeSolved();
         }
     }
 
