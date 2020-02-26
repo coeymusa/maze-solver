@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8c5c04-918b-4074-8179-013bd6a76ce8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MazeSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MazeSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MazeSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MazeSolver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +47,10 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="MazeSolver" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MazeSolver" />
+      <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="maze-solver" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,10 +80,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582671274640">
+    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582682439267">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582671274640" />
+    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582682439267" />
     <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1582676934520">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -91,30 +92,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="476" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582671749721" />
-    <state x="1009" y="485" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582671257959">
+    <state x="1009" y="485" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582682437221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1009" y="485" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582671257959" />
+    <state x="1009" y="485" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582682437221" />
     <state width="461" height="466" key="DebuggerActiveHint" timestamp="1582679640112">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="461" height="466" key="DebuggerActiveHint/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582679640112" />
-    <state width="2517" height="265" key="GridCell.Tab.0.bottom" timestamp="1582681839493">
+    <state x="1060" y="456" key="FileChooserDialogImpl" timestamp="1582682400918">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="265" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582681839493" />
-    <state width="2517" height="265" key="GridCell.Tab.0.center" timestamp="1582681839493">
+    <state x="1060" y="456" key="FileChooserDialogImpl/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582682400918" />
+    <state width="2517" height="265" key="GridCell.Tab.0.bottom" timestamp="1582682423944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="265" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582681839493" />
-    <state width="2517" height="265" key="GridCell.Tab.0.left" timestamp="1582681839493">
+    <state width="2517" height="265" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582682423944" />
+    <state width="2517" height="265" key="GridCell.Tab.0.center" timestamp="1582682423944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="265" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582681839493" />
-    <state width="2517" height="265" key="GridCell.Tab.0.right" timestamp="1582681839493">
+    <state width="2517" height="265" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582682423944" />
+    <state width="2517" height="265" key="GridCell.Tab.0.left" timestamp="1582682423944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="265" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582681839493" />
+    <state width="2517" height="265" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582682423944" />
+    <state width="2517" height="265" key="GridCell.Tab.0.right" timestamp="1582682423944">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="265" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582682423944" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1582681814145">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -145,17 +150,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MazeSolver.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MazeSolver.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MazeSolver.java</url>
-          <line>114</line>
+          <line>92</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
