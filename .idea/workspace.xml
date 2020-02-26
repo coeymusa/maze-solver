@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e8c5c04-918b-4074-8179-013bd6a76ce8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YJqcPkNECZuR6xNfkzbJeGNsom" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MazeSolver" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MazeSolver" />
+      <module name="maze-solver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MazeSolver" />
+      <module name="maze-solver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e8c5c04-918b-4074-8179-013bd6a76ce8" name="Default Changelist" comment="" />
+      <created>1582671123302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582671123302</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582671274640">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582671274640" />
+    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1582676934520">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582676934520" />
+    <state x="1010" y="476" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582671749721">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="476" key="#com.intellij.ide.util.PackageChooserDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582671749721" />
+    <state x="1009" y="485" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582671257959">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1009" y="485" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582671257959" />
+    <state width="461" height="466" key="DebuggerActiveHint" timestamp="1582679640112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="461" height="466" key="DebuggerActiveHint/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582679640112" />
+    <state width="2517" height="265" key="GridCell.Tab.0.bottom" timestamp="1582680102444">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="265" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582680102444" />
+    <state width="2517" height="265" key="GridCell.Tab.0.center" timestamp="1582680102444">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="265" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582680102444" />
+    <state width="2517" height="265" key="GridCell.Tab.0.left" timestamp="1582680102444">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="265" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582680102444" />
+    <state width="2517" height="265" key="GridCell.Tab.0.right" timestamp="1582680102444">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="265" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582680102444" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1582679866426">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582679866426" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1582679866426">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582679866426" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1582679866426">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582679866426" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1582679866426">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582679866426" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1582679778994">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582679778994" />
+    <state x="936" y="353" width="670" height="676" key="search.everywhere.popup" timestamp="1582678967645">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="353" width="670" height="676" key="search.everywhere.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1582678967645" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MazeSolver.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MazeSolver.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
