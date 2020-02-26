@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 public class MazeSolver {
-    private static int[][] maze = new int[][]{
+    private int[][] maze = new int[][]{
             {2, 0, 1, 1, 1},
             {1, 0, 1, 0, 1},
             {1, 0 ,1, 0, 1},
@@ -9,9 +9,9 @@ public class MazeSolver {
             {1,1 , 1, 1, 1}
     };
 
-    private static Position currentPosition;
-    private static Stack visitedPositions;
-    private static boolean mazeSolved;
+    private Position currentPosition;
+    private Stack visitedPositions;
+    private boolean mazeSolved;
 
     public MazeSolver(int[][] maze, Position startingPosition) {
         this.maze = maze;
@@ -20,7 +20,7 @@ public class MazeSolver {
         visitedPositions.push(currentPosition);
     }
 
-    static void solveMaze() {
+    void solveMaze() {
         Position previousPosition  = null;
         if (!visitedPositions.empty()) {
             previousPosition = (Position) visitedPositions.peek();
@@ -39,7 +39,7 @@ public class MazeSolver {
         setMazeSolved();
     }
 
-    private static void moveDown(Position previousPosition) {
+    private void moveDown(Position previousPosition) {
         switch (mazeValue(downPosition())) {
             case 1:
                 if (previousPosition.getX() != downPosition().getX()) {
@@ -58,7 +58,7 @@ public class MazeSolver {
         }
     }
 
-    private static void moveRight(Position previousPosition) {
+    private void moveRight(Position previousPosition) {
         switch (mazeValue(rightPosition())) {
             case 1:
                 if (previousPosition.getY() != rightPosition().getY()) {
@@ -77,7 +77,7 @@ public class MazeSolver {
         }
     }
 
-    private static void moveUp(Position previousPosition) {
+    private void moveUp(Position previousPosition) {
         switch (mazeValue(upPosition())) {
             case 1:
                 if (previousPosition.getX() != upPosition().getX()) {
@@ -97,7 +97,7 @@ public class MazeSolver {
         }
     }
 
-    private static void moveLeft(Position previousPosition) {
+    private void moveLeft(Position previousPosition) {
         switch (mazeValue(leftPosition())) {
             case 1:
                 if (previousPosition.getY() != leftPosition().getY()) {
@@ -116,7 +116,7 @@ public class MazeSolver {
         }
     }
 
-    private static void deadEnd(Position previousPosition) {
+    private void deadEnd(Position previousPosition) {
         System.out.println("Found a dead end, returning back");
         if (!visitedPositions.empty() ) {
             maze[currentPosition.getX()][currentPosition.getY()] = 0;
@@ -130,7 +130,7 @@ public class MazeSolver {
         }
     }
 
-    private static int mazeValue(Position position) {
+    private int mazeValue(Position position) {
         if (position.getX() > maze[0].length -1 || position.getX() == -1) {
             return 0;
         }
@@ -140,24 +140,24 @@ public class MazeSolver {
         return maze[position.getX()][position.getY()];
     }
 
-    private static Position leftPosition() {
+    private Position leftPosition() {
         int newPosition =  currentPosition.getY() -1;
         return new Position(currentPosition.getX(),  newPosition);
     }
-    private static Position rightPosition() {
+    private Position rightPosition() {
         int newPosition =  currentPosition.getY()  + 1 ;
         return new Position(currentPosition.getX(), newPosition);
     }
-    private static Position upPosition() {
+    private Position upPosition() {
         int newPosition =  currentPosition.getX() - 1;
         return new Position(newPosition, currentPosition.getY());
     }
-    private static Position downPosition() {
+    private Position downPosition() {
         int newPosition =  currentPosition.getX() + 1;
         return new Position(newPosition, currentPosition.getY() );
     }
 
-    private static void setMazeSolved() {
+    private void setMazeSolved() {
         System.exit(0);
     }
 }
